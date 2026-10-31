@@ -54,7 +54,7 @@ uvicorn app:app --reload
 When it is ready you will see:
 
 ```
-INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Uvicorn running on http://127.0.0.1:8000/docs (Press CTRL+C to quit)
 ```
 
 `--reload` restarts the server automatically whenever you edit `app.py`.
